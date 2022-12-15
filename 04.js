@@ -14,6 +14,21 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+ var string = num.toString()
+ var alrevés = "";
+
+ for (let i = string.length - 1; i >= 0; i--) {
+  alrevés = alrevés + string[i];
+  
+ }
+  if (alrevés === string) {
+    return true;
+  } else {
+    return false;
+  }
+
+  
+
 }
 
 // No modifiques nada debajo de esta linea //
