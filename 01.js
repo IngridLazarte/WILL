@@ -12,7 +12,7 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
-  var nuevoArray = [];
+  var nuevoArray = [props];
 
   for (let i = 0; i < array.length; i++) {
     if (array[i] >= 0) {
